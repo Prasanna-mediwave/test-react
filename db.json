@@ -1,0 +1,7 @@
+{
+  "lists": [
+    { "id": 1, "mName": "red", "year": 1994 },
+    { "id": 2, "mName": "blue", "year": 1993 },
+    { "id": 3, "mName": "yellow", "year": 1994 }
+  ]
+}
