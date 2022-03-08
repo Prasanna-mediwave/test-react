@@ -13,7 +13,11 @@ export default function Test() {
     setAge(26);
   };
 
-  const { data, inLoading, error } = useFetch("http://localhost:8000/lists");
+  const {
+    data: movie,
+    inLoading,
+    error,
+  } = useFetch("http://localhost:8000/lists");
   // useEffect(() => {
   //   setTimeout(() => {
   //     /* to Fetch data from server 1*/
@@ -55,7 +59,7 @@ export default function Test() {
       <div>
         {error && <div>{error}</div>}
         {inLoading && <div>loading...</div>}
-        {data && <MovieList movie={data} />}
+        {movie && <MovieList movie={movie} />}
       </div>
     </div>
   );

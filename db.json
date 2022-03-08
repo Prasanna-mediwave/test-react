@@ -1,7 +1,34 @@
 {
   "lists": [
-    { "id": 1, "mName": "red", "year": 1994 },
-    { "id": 2, "mName": "blue", "year": 1993 },
-    { "id": 3, "mName": "yellow", "year": 1994 }
+    {
+      "id": 1,
+      "mName": "red",
+      "year": 1994
+    },
+    {
+      "id": 2,
+      "mName": "blue",
+      "year": 1993
+    },
+    {
+      "id": 3,
+      "mName": "yellow",
+      "year": 1994
+    },
+    {
+      "mName": "green",
+      "year": "1999",
+      "id": 4
+    },
+    {
+      "mName": "prasanna",
+      "year": "1993",
+      "id": 5
+    },
+    {
+      "mName": "rajesh",
+      "year": "1994",
+      "id": 6
+    }
   ]
 }
