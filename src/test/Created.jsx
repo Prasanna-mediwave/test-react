@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Created() {
   const [movieName, setMoviename] = useState("");
   const [movieYear, setMovieyear] = useState("");
   const [inLoading, setInloading] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmite = (e) => {
     e.preventDefault();
@@ -16,6 +18,7 @@ export default function Created() {
       body: JSON.stringify(addMovie),
     }).then((e) => {
       setInloading(false);
+      navigate("/");
     });
   };
 
